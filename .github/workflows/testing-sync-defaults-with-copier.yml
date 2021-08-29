@@ -1,0 +1,17 @@
+name: install-python-pipenv-pipfile
+on:
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    name: Update Copier
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Sync Defaults with Copier
+        uses: jefftriplett/actions/sync-defaults-with-copier
+        with:
+          python-version: 3.9
