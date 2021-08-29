@@ -1,4 +1,4 @@
-name: sync-defaults-with-copier
+name: copier-update-action
 on:
   workflow_dispatch:
 
