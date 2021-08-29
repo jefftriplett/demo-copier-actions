@@ -15,3 +15,9 @@ jobs:
         uses: jefftriplett/actions/copier-update-action@main
         with:
           python-version: 3.9
+
+      - name: Commit repo contents
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Updates defaults"
+          push_options: --force
