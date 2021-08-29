@@ -12,6 +12,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Sync Defaults with Copier
-        uses: jefftriplett/actions/sync-defaults-with-copier@main
+        uses: jefftriplett/actions/copier-update-action@main
         with:
           python-version: 3.9
