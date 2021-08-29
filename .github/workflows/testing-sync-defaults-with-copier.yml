@@ -1,4 +1,4 @@
-name: install-python-pipenv-pipfile
+name: sync-defaults-with-copier
 on:
   workflow_dispatch:
 
